@@ -1,0 +1,55 @@
+body {
+    background-color: #f4f7f9;
+    font-family: 'Inter', sans-serif;
+    color: #334155;
+}
+
+/* Hiệu ứng mượt mà khi di chuột qua các thẻ thống kê */
+.stat-card {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Định dạng hộp chứa biểu tượng */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bảng màu nền bổ trợ nhẹ nhàng cho khối biểu tượng */
+.bg-primary-light { background-color: #e0f2fe; }
+.bg-danger-light { background-color: #fee2e2; }
+.bg-success-light { background-color: #dcfce7; }
+
+/* Bo góc mượt cho tiêu đề các bảng */
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+}
+
+/* Hoạt ảnh lướt nhẹ xuất hiện khi có dòng cảnh báo trộm mới chèn vào đầu bảng */
+.alert-row {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; background-color: #fff5f5; }
+    to { opacity: 1; background-color: transparent; }
+}
+
+/* Tùy chỉnh thanh cuộn tinh tế kiểu modern hiện đại */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}

@@ -1,0 +1,16 @@
+# Môi trường ảo và bộ nhớ đệm Python
+.venv/
+__pycache__/
+*.pyc
+
+# Cơ sở dữ liệu SQLite cục bộ
+instance/
+data/
+database/
+*.db
+
+# File mô hình huấn luyện AI (Nên để máy tính tự sinh ra khi chạy)
+trainer.yml
+
+# Các file hệ thống khác
+.DS_Store
