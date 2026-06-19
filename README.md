@@ -1,7 +1,10 @@
 # 🚗 ITS FaceID Security System
 **Hệ thống Giám sát An ninh và Bãi đỗ xe thông minh (V2I) tích hợp Edge AI**
+
 Dự án ứng dụng công nghệ nhận diện khuôn mặt (Local Binary Patterns Histograms - LBPH) xử lý trực tiếp tại trạm biên (Edge AI) để giảm độ trễ, kết hợp với Máy chủ Trung tâm (Flask) để quản lý và cảnh báo xâm nhập theo thời gian thực.
+
 ## 🛠️ PHẦN 1: CÀI ĐẶT MÔI TRƯỜNG (BẮT BUỘC)
+
 Để hệ thống chạy ổn định và không xung đột với các dự án khác trên máy, bạn cần tạo một môi trường ảo (Virtual Environment) trước khi chạy code.
 
 Bước 1: Tạo và kích hoạt môi trường ảo:
